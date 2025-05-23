@@ -1,0 +1,141 @@
+/* App.css */
+
+body {
+    background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #004a99;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #fff;
+  }
+  
+  .logo {
+    height: 60px;
+    max-width: 120px;
+    object-fit: contain;
+  }
+  
+  .header-text {
+    flex: 1;
+    padding: 0 2rem;
+    text-align: center;
+  }
+  
+  .header-text h1 {
+    margin: 0 0 0.3rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  }
+  
+  .header-text p {
+    margin: 0.2rem 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .logo-left,
+  .logo-right {
+    flex-basis: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app-main {
+    flex-grow: 1;
+    padding: 2rem 4rem;
+    background: #e9f1f7;
+    color: #333;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
+    margin: 0 2rem 2rem 2rem;
+  }
+  
+  .app-main h2 {
+    color: #004a99;
+    margin-bottom: 1.5rem;
+  }
+  
+  .search-container input {
+    border-radius: 3px 0 0 3px !important;
+  }
+  
+  .p-button-info {
+    background-color: #007acc !important;
+    border-color: #007acc !important;
+  }
+  
+  .p-button-info:hover {
+    background-color: #005fa3 !important;
+    border-color: #005fa3 !important;
+  }
+  
+  .app-footer {
+    background: #004a99;
+    text-align: center;
+    padding: 1rem;
+    color: #ddd;
+    font-size: 0.9rem;
+    /* box-shadow opcional */
+    /* box-shadow: 0 -2px 5px rgba(0,0,0,0.2); */
+  }
+  
+  .top-controls {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-controls > * + * {
+    margin-top: 1.8rem; /* Espaçamento vertical entre botão e busca */
+  }
+
+  
+  .top-controls {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-controls > * + * {
+    margin-top: 1.8rem; /* Espaçamento vertical entre botão e busca */
+  }
+
+  
+  .search-container {
+    margin-top: 2rem; /* aumenta espaço acima do campo de busca */
+  }
+  
+
+
+  .confirm-message {
+    font-size: 1.2rem;
+    color: #d9534f; /* vermelho forte para chamar atenção */
+    font-weight: 600;
+    text-align: center;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border: 2px solid #d9534f;
+    border-radius: 8px;
+    background-color: #f8d7da; /* fundo rosado claro */
+    box-shadow: 0 2px 8px rgba(217, 83, 79, 0.4);
+  }
+  
+  
